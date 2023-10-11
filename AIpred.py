@@ -14,6 +14,10 @@ from itertools import combinations
 import warnings
 
 
+
+print('hello')
+
+
 def _flatten(l):
     for ele in l:
         if not isinstance(ele, (list, tuple)):
